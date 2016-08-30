@@ -1,0 +1,20 @@
+﻿Build started 8/30/2016 7:52:53 AM.
+     1>Project "C:\Users\gyt\Desktop\CDAC Projects\C Programmes\MyBank\MyBank\MyBank.vcxproj" on node 2 (Rebuild target(s)).
+     1>ClCompile:
+         C:\Program Files\Microsoft Visual Studio 11.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc110.pdb" /Gd /TP /analyze- /errorReport:prompt Account.cpp MyBank.cpp SavingsAccount.cpp
+         SavingsAccount.cpp
+         MyBank.cpp
+         Account.cpp
+     1>c:\users\gyt\desktop\cdac projects\c programmes\mybank\mybank\account.cpp(8): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files\microsoft visual studio 11.0\vc\include\string.h(110) : see declaration of 'strcpy'
+         Generating Code...
+       Link:
+         C:\Program Files\Microsoft Visual Studio 11.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\gyt\Desktop\CDAC Projects\C Programmes\MyBank\Debug\MyBank.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:\Users\gyt\Desktop\CDAC Projects\C Programmes\MyBank\Debug\MyBank.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\gyt\Desktop\CDAC Projects\C Programmes\MyBank\Debug\MyBank.lib" /MACHINE:X86 Debug\Account.obj
+         Debug\MyBank.obj
+         Debug\SavingsAccount.obj
+         MyBank.vcxproj -> C:\Users\gyt\Desktop\CDAC Projects\C Programmes\MyBank\Debug\MyBank.exe
+     1>Done Building Project "C:\Users\gyt\Desktop\CDAC Projects\C Programmes\MyBank\MyBank\MyBank.vcxproj" (Rebuild target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:01.02
