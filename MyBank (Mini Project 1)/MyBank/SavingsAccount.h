@@ -5,9 +5,8 @@
 class SavingsAccount :
 	public Account
 {
-
 public:
-	SavingsAccount(int an, char *hn, double b);
-	bool withdraw(double amount);
+	SavingsAccount(int an, char *hn, double b, double mb=500);
+	virtual bool withdraw(double amount);
 };
 

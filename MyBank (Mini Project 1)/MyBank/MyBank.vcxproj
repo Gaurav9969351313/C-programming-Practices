@@ -77,12 +77,18 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClInclude Include="Account.h" />
+    <ClInclude Include="CurrentAccount.h" />
+    <ClInclude Include="FixedDeposit.h" />
     <ClInclude Include="SavingsAccount.h" />
+    <ClInclude Include="String.h" />
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Account.cpp" />
-    <ClCompile Include="MyBank.cpp" />
+    <ClCompile Include="CurrentAccount.cpp" />
+    <ClCompile Include="FixedDeposit.cpp" />
+    <ClCompile Include="PoonaBank.cpp" />
     <ClCompile Include="SavingsAccount.cpp" />
+    <ClCompile Include="String.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
